@@ -127,11 +127,12 @@ const HomePage = () => {
                   <div className="text-[#1C1C1C] font-inter text-[12px]">
                     {card.title}{" "}
                   </div>
-                  <div className="flex gap-6 mt-2">
+                  <div className="flex justify-between mt-2">
                     <div className="text-[#1C1C1C] text-[24px] font-inter font-semibold">
                     <CountUp start={0} end={card.count} />
                       
                     </div>
+                    <div className='flex gap-2'>
                     <div className="text-[#1C1C1C] text-[12px] font-inter my-auto">
                       {card.percent + "%"}
                     </div>
@@ -150,6 +151,7 @@ const HomePage = () => {
                         fill="#1C1C1C"
                       />
                     </svg>
+                    </div>
                   </div>
                 </div>
               );

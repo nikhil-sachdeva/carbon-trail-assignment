@@ -1,6 +1,5 @@
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import React, { useEffect, useState } from 'react';
-import moment from "moment";
 
 const Topbar = () => {
   
@@ -69,10 +68,10 @@ const Topbar = () => {
           </div>
           <div className="flex gap-4">
             <div className="flex bg-[#1C1C1C0D] w-32 px-2 py-1 justify-between rounded-md">
-              <div className="flex gap-2">
+              <div className="flex gap-1">
                 
                 <MagnifyingGlassIcon className="w-3 h-3 text-[#1C1C1C33] my-auto" />
-                <input placeholder="Search" className="text-black bg-[#1C1C1C00] w-[90px] rounded-md px-2 text-[14px] font-inter">
+                <input placeholder="Search" className="text-black bg-[#1C1C1C00] w-[70px] rounded-md px-2 text-[14px] font-inter">
                   
                 </input>
               </div>
