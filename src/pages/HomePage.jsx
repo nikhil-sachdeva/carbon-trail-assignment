@@ -16,8 +16,8 @@ import moment from "moment";
   
   import { faker } from "@faker-js/faker";
 import CountUp from 'react-countup';
-import {BarGraph} from "../components/common/BarGraph"
-import {DonutGraph} from "../components/common/DonutGraph"
+import {BarGraph} from "../components/BarGraph"
+import {DonutGraph} from "../components/DonutGraph"
 
 ChartJS.register(
     CategoryScale,

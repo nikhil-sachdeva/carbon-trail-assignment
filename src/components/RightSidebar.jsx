@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 
-import ActivityIcon from "../../images/activity_icon.png"
-import ContactIcon from "../../images/contact_icon.png"
+import ActivityIcon from "../images/activity_icon.png"
+import ContactIcon from "../images/contact_icon.png"
 
 export default function RightSidebar() {
   const OverviewIcon = () => {

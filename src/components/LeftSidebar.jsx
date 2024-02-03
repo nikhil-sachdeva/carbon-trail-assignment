@@ -1,7 +1,7 @@
 import React from "react";
 import { ChevronRightIcon, UserCircleIcon } from "@heroicons/react/24/outline";
 
-export default function Sidebar() {
+export default function LeftSidebar() {
   const OverviewIcon = () => {
     return (
       <svg
