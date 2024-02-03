@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Sidebar from "./components/common/Sidebar";
+import RightSidebar from "./components/common/RightSidebar";
+import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { useEffect, useState } from "react";
+
+import Topbar from "./components/common/Topbar";
+import HomePage from "./pages/HomePage";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex">
+      <Sidebar />
+      <RightSidebar />
+      <div className="w-full mr-72 ml-60">
+    <Topbar/>
+
+        <HomePage/>
+      </div>
     </div>
   );
 }
